@@ -1,89 +1,36 @@
-# Sexta do Empreendedor 🚀
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Sistema completo de marketplace comunitário para anunciantes empreendedores da comunidade brasileira nos Estados Unidos.
+## Getting Started
 
-## 🎯 Visão Geral
-
-Plataforma que conecta mais de 6.000 membros da comunidade brasileira com empreendedores locais através de anúncios semanais publicados todas as sextas-feiras.
-
-### Funcionalidades Principais
-
-- 📝 Cadastro e gestão de anunciantes
-- 💰 Sistema de pagamento via Zelle ($30/anúncio)
-- 🎨 Vitrine pública com filtros inteligentes
-- ⚡ Painel administrativo completo
-- 📱 Integração com WhatsApp
-- 🔔 Sistema de aprovação de anúncios
-- 📊 Analytics e relatórios
-
-## 🛠️ Stack Técnica
-
-- **Frontend:** Next.js 14 + React + TailwindCSS
-- **Backend:** Next.js API Routes
-- **Database:** PostgreSQL + Prisma ORM
-- **Auth:** NextAuth.js
-- **UI Components:** shadcn/ui
-- **Deploy:** Vercel-ready
-
-## 📋 Status do Projeto
-
-**Versão:** 0.1.0 (MVP em desenvolvimento)  
-**Data de Início:** 01/04/2026  
-**Previsão de Entrega MVP:** 02/04/2026  
-
-## 👥 Equipe
-
-- **Chiara Garcia** - Arquitetura e Coordenação
-- **Lia Salazar** - Frontend e UI/UX
-- **David Novaes** - Backend e APIs
-
-## 📁 Estrutura do Projeto
-
-```
-/
-├── src/
-│   ├── app/              # Next.js App Router
-│   ├── components/       # Componentes reutilizáveis
-│   ├── lib/             # Utilitários e configurações
-│   └── styles/          # Estilos globais
-├── prisma/
-│   └── schema.prisma    # Modelagem do banco
-├── public/
-│   └── assets/          # Imagens e assets estáticos
-└── docs/                # Documentação do projeto
-```
-
-## 🚀 Como Executar
+First, run the development server:
 
 ```bash
-# Instalar dependências
-npm install
-
-# Configurar variáveis de ambiente
-cp .env.example .env.local
-
-# Executar migrações do banco
-npx prisma migrate dev
-
-# Iniciar servidor de desenvolvimento
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 📖 Documentação
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Arquitetura do Sistema](./docs/ARCHITECTURE.md)
-- [Modelagem do Banco](./docs/DATABASE.md)
-- [Guia de Estilo](./docs/STYLEGUIDE.md)
-- [API Reference](./docs/API.md)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🎨 Identidade Visual
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Cores principais baseadas no logo:
-- Azul: #0066CC
-- Amarelo: #FFD700
-- Laranja: #FF8C00
-- Branco: #FFFFFF
+## Learn More
 
-## 📝 Licença
+To learn more about Next.js, take a look at the following resources:
 
-Propriedade da Facebrasil Group - Todos os direitos reservados.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
